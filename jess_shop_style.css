@@ -44,13 +44,14 @@ body {
 /*ALL ITEM CARDS*/
 .card {
   box-shadow: 0px 1px 1px rgba(46, 49, 49, .2);
+  font-family: 'Jost', sans-serif;
 }
+
 
 .card:hover {
   transform: scale(1.01);
   box-shadow: 3px 3px 10px rgba(46, 49, 49, .3);
-  transition: transform .25s;
-  transition: box-shadow .25s;
+  transition: box-shadow .5s, transform .5s;
 }
 
 
