@@ -68,7 +68,7 @@ h1 {
 	font-size: 1.2rem;
 	}
 
-input[type=button] { 
+input[type=reset], [type=submit], button, html [type=button] { 
   -webkit-appearance: none; 
 }
 
