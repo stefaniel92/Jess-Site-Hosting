@@ -1,200 +1,123 @@
-<!DOCTYPE html>
-<html>
-<head>
-	 <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <!--Font-->
-   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&family=Open+Sans+Condensed:wght@300;700&family=Sacramento&display=swap" rel="stylesheet">
+body {
+  width: 100%;
+  min-height: 100%;
+  background-color: rgba(219, 219, 219, .3);
+  }
 
 
-  <!--Font Awesome-->
-   <script src="https://kit.fontawesome.com/26974908f0.js" crossorigin="anonymous"></script>
+/*PUSH ITEMS DOWN FROM TOP*/
+#gallery {
+  padding-top: 85px;
+}
 
-  <!--Custom CSS-->
-    <link rel="stylesheet" href="jess_shop_style.css" type="text/css">
+/*FAVOURITE BUTTON*/
+.btn-outline-danger {
+   color: hsla(300, 47%, 75%, 1);
+    background-color: transparent;
+    background-image: none;
+    border-color: hsla(300, 47%, 75%, 1);
+  }
 
-	<title>Shop – Jessica Maye</title>
-</head>
+  .btn-outline-danger:hover {
+   color: white;
+    background-color: hsla(300, 47%, 75%, 1);
+    background-image: none;
+    border-color: hsla(300, 47%, 75%, 1);
+  }
 
-<body>
-	 <!--Page Container-->
-  <div id="page-container">
 
-  <!--Content Container-->
-    <div id="content-wrap">
+/*ADD TO CART BUTTON*/
+.btn-outline-success {
+    color: hsl(180, 65%, 70%);
+    background-color: transparent;
+    background-image: none;
+    border-color: hsl(180, 65%, 70%);
+}
 
- <!--Navbar-->     
-  <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md fixed-top">
-      <a class="navbar-brand" href="index.html">JESSICA MAYE</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="toggle-navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!--Links-->
-      <div class="collapse navbar-collapse" id="navLinks">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a href="jess_shop.html" class="nav-link" id="active">SHOP</a>
-          </li>
-          <li class="nav-item">
-            <a href="jess_about_me.html" class="nav-link">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a href="jess_contact.html" class="nav-link">CONTACT</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+.btn-outline-success:hover {
+  color: white;
+  background-color: hsl(180, 65%, 70%);
+  border-color: hsl(180, 65%, 70%);
+}
 
-<!--ITEM GALLERY-->
-<section id="gallery">
-        <div class="container">
-            <div class="row">
 
-            	<!--COZY SWEATER-->
-                <div class="col-lg-4 mb-4">
-                    <div class="card">
-                        <img src="https://i.ibb.co/3mP5fMt/giulia-bertelli-L8-L-pfh-C40-unsplash.jpg" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Cozy Sweater</h5>
-                            <p class="card-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                            <a href="" class="btn btn-sm btn-outline-success"><i class="fas fa-shopping-cart"></i> Add to cart</a>
-                            <a href="" class="btn btn-sm btn-outline-danger"><i class="far fa-heart"></i></a>
-                        </div>
-                    </div>
-                </div> 
+/*ALL ITEM CARDS*/
+.card {
+  box-shadow: 0px 1px 1px rgba(46, 49, 49, .2);
+  font-family: 'Jost', sans-serif;
+}
 
-                <!--PATTERNED SWEATER-->
-                <div class="col-lg-4 mb-4">
-                    <div class="card">
-                        <img src="https://i.ibb.co/mtKLhv4/rocknwool-pihg-Jt-Xrg-unsplash.jpg" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Patterned Sweater</h5>
-                            <p class="card-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                            <a href="" class="btn btn-sm btn-outline-success"><i class="fas fa-shopping-cart"></i> Add to cart</a>
-                            <a href="" class="btn btn-sm btn-outline-danger"><i class="far fa-heart"></i></a>
-                        </div>
-                    </div>
-                </div> 
 
-                <!--HOT WATER BOTTLE COVER-->
-                 <div class="col-lg-4 mb-4">
-                    <div class="card">
-                        <img src="https://i.ibb.co/mDSyhp2/rocknwool-l-bwi-AQSSg8-unsplash.jpg" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Hot Water Bottle Cover</h5>
-                            <p class="card-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                            <a href="" class="btn btn-sm btn-outline-success"><i class="fas fa-shopping-cart"></i> Add to cart</a>
-                            <a href="" class="btn btn-sm btn-outline-danger"><i class="far fa-heart"></i></a>
-                        </div>
-                    </div>
-                </div> 
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 3px 3px 10px rgba(46, 49, 49, .3);
+  transition: box-shadow .5s, transform .5s;
+}
 
-                <!--HEADBAND-->
-                 <div class="col-lg-4 mb-4">
-                    <div class="card">
-                        <img src="https://i.ibb.co/PjKCXgh/zach-lucero-5-Lj-Xr-CZa-Cj8-unsplash.jpg" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Headband</h5>
-                            <p class="card-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                            <a href="" class="btn btn-sm btn-outline-success"><i class="fas fa-shopping-cart"></i> Add to cart</a>
-                            <a href="" class="btn btn-sm btn-outline-danger"><i class="far fa-heart"></i></a>
-                        </div>
-                    </div>
-                </div> 
 
-                <!--HAND WARMERS-->
-                <div class="col-lg-4 mb-4">
-                    <div class="card">
-                        <img src="https://i.ibb.co/JrCzf1Q/les-triconautes-g-OX6c-CA6i-Y8-unsplash.jpg" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Hand Warmers</h5>
-                            <p class="card-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                            <a href="" class="btn btn-sm btn-outline-success"><i class="fas fa-shopping-cart"></i> Add to cart</a>
-                            <a href="" class="btn btn-sm btn-outline-danger"><i class="far fa-heart"></i></a>
-                        </div>
-                    </div>
-                </div> 
+/*NAVBAR*/
+.navbar-dark {
+	background-color: hsla(300, 47%, 75%, 1);
+}
 
-                <!--SOCKS-->
-                 <div class="col-lg-4 mb-4">
-                    <div class="card">
-                        <img src="https://i.ibb.co/MfPxhXf/les-triconautes-HIFNmoxkr8-Y-unsplash.jpg" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Striped Socks</h5>
-                            <p class="card-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                            <a href="" class="btn btn-sm btn-outline-success"><i class="fas fa-shopping-cart"></i> Add to cart</a>
-                            <a href="" class="btn btn-sm btn-outline-danger"><i class="far fa-heart"></i></a>
-                        </div>
-                    </div>
-                </div>
 
-                <!--BABY KIT--> 
-                 <div class="col-lg-4 mb-4">
-                    <div class="card">
-                        <img src="https://i.ibb.co/w0mK8d2/annisa-ica-IB6q3n-WCRYA-unsplash.jpg" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Baby Kit</h5>
-                            <p class="card-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                            <a href="" class="btn btn-sm btn-outline-success"><i class="fas fa-shopping-cart"></i> Add to cart</a>
-                            <a href="" class="btn btn-sm btn-outline-danger"><i class="far fa-heart"></i></a>
-                        </div>
-                    </div>
-                </div> 
+/*JESSICA MAYE*/
+.navbar-dark .navbar-brand {
+	color: hsl(180, 65%, 81%);
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.4rem;
+	font-weight: 700;
+  text-shadow: 1px 1px 1px rgba(46, 49, 49, .1);
+}
 
-                <!--SKIRT-->
-                <div class="col-lg-4 mb-4">
-                    <div class="card">
-                        <img src="https://i.ibb.co/SKx03Yz/les-triconautes-ar-Ws-Nrt9-E-4-unsplash.jpg" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Skirt</h5>
-                            <p class="card-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                            <a href="" class="btn btn-sm btn-outline-success"><i class="fas fa-shopping-cart"></i> Add to cart</a>
-                            <a href="" class="btn btn-sm btn-outline-danger"><i class="far fa-heart"></i></a>
-                        </div>
-                    </div>
-                </div> 
 
-                <!--KNOTTED TOP-->
-                 <div class="col-lg-4 mb-4">
-                    <div class="card">
-                        <img src="https://i.ibb.co/ZTFwbp8/les-triconautes-U4vn6-FCw-Kxg-unsplash.jpg" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Knotted Back Top</h5>
-                            <p class="card-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                            <a href="" class="btn btn-sm btn-outline-success"><i class="fas fa-shopping-cart"></i> Add to cart</a>
-                            <a href="" class="btn btn-sm btn-outline-danger"><i class="far fa-heart"></i></a>
-                        </div>
-                    </div>
-                </div> 
+/*NAVBAR LINKS*/
+#active {
+  color: hsl(180, 65%, 81%);
+}
 
-            </div>
-        </div>   
-    </section>
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.2rem;
+}
 
-<!--END OF CONTENT CONTAINER-->
-</div>
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: hsl(180, 65%, 81%);
+}
 
-<!--FOOTER-->
-  <footer id="footer">
-    <p><i class="far fa-copyright"></i> Jessica Maye, 2020</p>
-  </footer>
+.navbar-dark .navbar-brand:hover {
+	color: white;
+}
 
-<!--END OF PAGE CONTAINER-->
-    </div>
 
-   
-<!--JQuery-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<!--JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<!--Bootsrap 4-->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-</body>
-</html>
+/*FOOTER REQUIREMENTS*/
+#page-container {
+  position: relative;
+  min-height: 100vh;
+  
+}
+
+#content-wrap {
+  padding-bottom: 3rem;
+    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;   
+  background-color: hsla(300, 47%, 75%, 1);
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;   
+}
+
+footer p {
+	font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+
