@@ -68,6 +68,9 @@ h1 {
 	font-size: 1.2rem;
 	}
 
+input[type=button] {
+  -webkit-appearance: none;
+}
 
 /*CONTENT CONTAINER*/
 .container {
