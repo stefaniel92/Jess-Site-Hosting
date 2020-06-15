@@ -51,6 +51,8 @@ h1 {
 	font-family: 'Jost', sans-serif;
 	font-weight: 400;
 	font-size: 1.10rem;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .blurb {
